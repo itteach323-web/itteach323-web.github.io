@@ -1,0 +1,93 @@
+
+
+
+@media (max-width: 1024px) {
+    /* Эти стили работают для ширины экрана от 769 до 1024*/
+    .header{
+        max-width: 1024px;
+    }
+    .header__container{
+        max-width: 824px;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .header__logo{
+        margin-right: 0;
+        order: 1;
+        margin-bottom: 33px;
+    }
+
+    .header__search{
+        order: 2;
+    }
+
+    .nav{
+        order: 3;
+        width: 100%;
+        padding: 22px 0 22px 0;
+        border: 1px solid #E6E8EC;
+    }
+    .header__list{
+            gap: 105px;
+            
+        }
+}
+
+
+@media (max-width: 800px) {
+      .header{
+        max-width: 768px;
+    }
+
+    .header__container{
+        max-width: 538px;
+        padding-top: 33px;
+    }
+
+    .header__link{
+        font-size: 16px;
+    }
+
+    .header__list{
+        gap: 56px;
+    }
+    
+}
+
+/* до 768 все ок  */
+
+
+@media (max-width: 535px){
+
+    .header__list{
+        gap: 40px;
+    }
+
+}
+
+
+@media (max-width: 470px) {
+      .header__list{
+        gap: 32px;
+        overflow-x: scroll;
+      }
+    
+}
+
+@media (max-width:320px){
+    .header{
+        max-width: 320px;
+    }
+    .header__container{
+        max-width: 256px;
+        padding-top: 23px;
+    }
+
+ 
+    .nav{
+        padding: 17px 0 17px 0;
+    }
+
+}

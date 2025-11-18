@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+/* header */
+
+.header{
+    max-width: 1920px;
+}
+
+.header__container{
+    max-width: 1110px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    margin-right: 80px;
+}
+
+.header__search{
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.header__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 58px;
+}
+
+.header__link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #121723;
+    cursor:pointer;
+}
+
